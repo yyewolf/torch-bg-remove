@@ -1,0 +1,9 @@
+version: '3.5'
+
+services:
+  serve:
+    build: .
+    volumes:
+      - ./models:/models
+    ports:
+      - 3000:3000
